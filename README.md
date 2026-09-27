@@ -22,7 +22,7 @@ A dark Neovim colorscheme inspired by deep forests, violet twilight, and glowing
 
 ```lua
 {
-  "YOUR_USERNAME/verdant-violet-night.nvim",
+  "some-path/verdant-violet-night.nvim",
   lazy = false,
   priority = 1000,
   config = function()
@@ -35,7 +35,7 @@ A dark Neovim colorscheme inspired by deep forests, violet twilight, and glowing
 
 ```lua
 use {
-  "YOUR_USERNAME/verdant-violet-night.nvim",
+  "some-path/verdant-violet-night.nvim",
   config = function()
     vim.cmd.colorscheme("verdant-violet-night")
   end,
